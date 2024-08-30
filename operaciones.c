@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  float n1,n2,summa,resta,multiplicacion,division;
+  float n1,n2,suma,resta,multiplicacion,division;
   int ops;
 
   printf("ingresa el primer numero");
