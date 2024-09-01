@@ -25,7 +25,7 @@ int main()
         printf("El resultado de la resta es: %.2f",resta);
       break;
       case 3:
-      mult=n1+n2;
+      mult=n1*n2;
       printf("El resultado de la multiplicación es de: %.2f",mult);
       break;
       case 4:
