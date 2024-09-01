@@ -23,7 +23,7 @@ int main()
         printf("El resultado de la resta es: %i",resta);
       break;
       case 3:
-      mult=n1+n2;
+      mult=n1*n2;
       printf("El resultado de la multiplicación es de: %i",mult);
       break;
       case 4:
