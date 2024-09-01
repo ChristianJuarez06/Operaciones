@@ -12,6 +12,7 @@ int main()
   printf("Ingresa 2 para hacer resta");
   printf("Ingresa 3 para hacer multiplicacion");
   printf("Ingresa 4 para hacer divicion");
+  scanf("%i",&ops);
   
   switch(ops)
     {
