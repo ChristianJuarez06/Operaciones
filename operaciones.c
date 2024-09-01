@@ -10,8 +10,8 @@ int main()
   scanf("%f",&n2);
   printf("Ingresa 1 para hacer suma");
   printf("Ingresa 2 para hacer resta");
-  printf("Ingresa 3 para hacer multiplicacion");
-  printf("Ingresa 4 para hacer divicion");
+  printf("Ingresa 3 para hacer multiplicación");
+  printf("Ingresa 4 para hacer división");
   scanf("%i",&ops);
   
   switch(ops)
@@ -26,13 +26,13 @@ int main()
       break;
       case 3:
       mult=n1+n2;
-      printf("El resultado de la multiplicacion es de: %.2f",mult);
+      printf("El resultado de la multiplicación es de: %.2f",mult);
       break;
       case 4:
       if(n2=!0)
       {
         div=n1/n2;
-        printf("El resultado de la divicion es de: %.2f",div);
+        printf("El resultado de la división es de: %.2f",div);
       }
       else 
       {
