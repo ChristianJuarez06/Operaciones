@@ -2,6 +2,7 @@
 int main()
 {
   float n1,n2,suma,resta,mult,div;
+  int ops;
 
   printf("ingresa el primer numero");
   scanf("%f",&n1);
