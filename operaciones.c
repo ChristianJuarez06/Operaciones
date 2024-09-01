@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  float n1,n2,suma,resta,multiplicacion,division;
+  float n1,n2,suma,resta,mult,div;
   int ops;
 
   printf("ingresa el primer numero");
@@ -25,14 +25,14 @@ int main()
         printf("El resultado de la resta es: %.2f",resta);
       break;
       case 3:
-        multiplicacion=n1*n2;
-        printf("El resultado de la multiplicación es: %.2f",multiplicacion);
+        mult=n1*n2;
+        printf("El resultado de la multiplicación es: %.2f",mult);
       break;
       case 4:
         if(n2=!0)
         {
-          division=n1/n2;
-        printf("El resultado de la división es: %.2f",division);
+          div=n1/n2;
+        printf("El resultado de la división es: %.2f",div);
         }
         else
         {
