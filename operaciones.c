@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int suma,resta,mult,div;
-  float n1, n2;
+  float n1,n2,suma,resta,mult,div;
 
   printf("ingresa el primer numero");
   scanf("%f",&n1);
