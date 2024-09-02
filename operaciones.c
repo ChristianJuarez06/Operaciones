@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  int n1,n2,suma,resta,mult,div;
+  int n1,n2,suma,resta,mult,div,ops;
 
   printf("ingresa el primer numero :");
   scanf("%i",&n1);
