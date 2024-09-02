@@ -3,14 +3,14 @@ int main()
 {
   int n1,n2,suma,resta,mult,div;
 
-  printf("ingresa el primer numero");
+  printf("ingresa el primer numero :");
   scanf("%i",&n1);
-  printf("Ingresa el segundo numero");
+  printf("Ingresa el segundo numero :");
   scanf("%i",&n2);
-  printf("Ingresa 1 para hacer suma");
-  printf("Ingresa 2 para hacer resta");
-  printf("Ingresa 3 para hacer multiplicación");
-  printf("Ingresa 4 para hacer división");
+  printf("Ingresa 1 para hacer suma \n");
+  printf("Ingresa 2 para hacer resta \n");
+  printf("Ingresa 3 para hacer multiplicación \n");
+  printf("Ingresa 4 para hacer división \n");
   
   switch(ops)
     {
