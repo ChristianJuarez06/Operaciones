@@ -18,21 +18,21 @@ int main()
     {
       case 1:
         suma=n1+n2;
-        printf("El resultado de la suma es: %.2f",suma);
+        printf("El resultado de la suma es: %f",suma);
       break;
       case 2:
         resta=n1-n2;
-        printf("El resultado de la resta es: %.2f",resta);
+        printf("El resultado de la resta es: %f",resta);
       break;
       case 3:
       mult=n1*n2;
-      printf("El resultado de la multiplicación es de: %.2f",mult);
+      printf("El resultado de la multiplicación es de: %f",mult);
       break;
       case 4:
       if(n2!=0)
       {
         div=n1/n2;
-        printf("El resultado de la división es de: %.2f",div);
+        printf("El resultado de la división es de: %f",div);
       }
       else 
       {
