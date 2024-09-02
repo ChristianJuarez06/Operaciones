@@ -29,7 +29,7 @@ int main()
         printf("El resultado de la multiplicación es: %.2f",mult);
       break;
       case 4:
-        if(n2=!0)
+        if(n2!=0)
         {
           div=n1/n2;
         printf("El resultado de la división es: %.2f",div);
