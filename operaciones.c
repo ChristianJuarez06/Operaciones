@@ -8,6 +8,7 @@ int main()
   printf("Ingresa el segundo numero");
   scanf("%i",&n2);
   printf("Ingresa 1 para hacer suma o ingresa 2 para hacer resta");
+  sacnf("%i",&ops);
   switch(ops)
     {
       case 1:
