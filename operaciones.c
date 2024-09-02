@@ -11,6 +11,7 @@ int main()
   printf("Ingresa 2 para hacer resta \n");
   printf("Ingresa 3 para hacer multiplicación \n");
   printf("Ingresa 4 para hacer división \n");
+  scanf("%i",&ops);
   
   switch(ops)
     {
@@ -27,7 +28,7 @@ int main()
       printf("El resultado de la multiplicación es de: %i",mult);
       break;
       case 4:
-      if(n2=!0)
+      if(n2!=0)
       {
         div=n1/n2;
         printf("El resultado de la división es de: %i",div);
