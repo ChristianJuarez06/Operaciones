@@ -3,12 +3,12 @@ int main()
 {
   int n1,n2,suma,resta,ops;
 
-  printf("ingresa el primer numero");
+  printf("ingresa el primer numero: ");
   scanf("%i",&n1);
-  printf("Ingresa el segundo numero");
+  printf("Ingresa el segundo numero: ");
   scanf("%i",&n2);
-  printf("Ingresa 1 para hacer suma o ingresa 2 para hacer resta");
-  sacnf("%i",&ops);
+  printf("Ingresa 1 para hacer suma o ingresa 2 para hacer resta: ");
+  scanf("%i",&ops);
   switch(ops)
     {
       case 1:
