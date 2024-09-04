@@ -40,7 +40,7 @@ int main()
         }
       break;
       default:
-        printf("ERROR opcion incorresta debe ser de 1-4");
+        printf("ERROR opcion incorrecta debe ser de 1-4");
     }
   return 0; 
 }
